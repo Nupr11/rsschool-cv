@@ -1,0 +1,49 @@
+
+@font-face {
+  font-family: "Titillium Web", sans-serif;
+  src: url("assets/fonts/TitilliumWeb-ExtraLight.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: "Titillium Web";
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  max-width: 1440px;
+  min-height: 1000px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background: lightgray;
+  box-shadow: 0 35 px 55 px rgba(0, 0, 0, 0.1);
+}
+
+.container .left-side {
+  position: relative;
+  background: lightslategray;
+  max-width: 280px;
+  min-height: 1200px;
+  margin: 10 auto;
+}
+
+.container .left-side .image {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50%;
+}
+
+.container .left-side .image .contacts {
+  padding-bottom: 20px; 
+  border-bottom: 1px solid rgba(rgb(19, 15, 15), green, blue, alpha);
+}
+
+.container .right-side {
+  position: relative;
+  background: lightgray;
+}
