@@ -1,14 +1,13 @@
 @font-face {
   font-family: "Titillium Web", sans-serif;
-  src: url("assets/fonts/TitilliumWeb-ExtraLight.ttf");
+  src: url("assets/fonts/");
 }
 
 * {
   box-sizing: border-box;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: "Titillium Web";
   margin: 0;
   padding: 0;
+  font-family: "Titillium Web", sans-serif;
 }
 
 li {
@@ -94,7 +93,6 @@ h1 {
   width: 100vw;
   height: 200px;
   margin-top: auto;
-  /* stylelint-disable-next-line color-named */
   background: rgb(11, 92, 92);
   font-size: 20px;
   font-weight: 200;
@@ -131,7 +129,6 @@ html {
 }
 
 .link:hover {
-  /* stylelint-disable-next-line color-named */
   color: #ffffff;
 }
 
