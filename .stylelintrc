@@ -1,0 +1,6 @@
+{
+  "extends": "stylelint-config-htmlacademy",
+  "rules": {
+    "color-named": "always-where-possible"
+  }
+}
